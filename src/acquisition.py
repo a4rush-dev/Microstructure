@@ -9,7 +9,7 @@ import websocket
 SYMBOL = "btcusdt"
 REST_SYMBOL = SYMBOL.upper()
 SNAPSHOT_LIMIT = 5000
-RUN_DURATION_SECONDS = 9 * 60 * 60
+RUN_DURATION_SECONDS = 13 * 60 * 60 # 9 hours is too low, ideally should be around 3d but my laptop keeps crashing
 
 STREAM_URL = (
     f"wss://stream.binance.us:9443/stream?streams={SYMBOL}@depth@100ms/{SYMBOL}@trade"
