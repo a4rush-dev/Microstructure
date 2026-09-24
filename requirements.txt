@@ -1,0 +1,6 @@
+numba==0.67.0
+numpy==2.5.3
+pandas==3.0.6
+Requests==2.34.2
+statsmodels==0.15.0
+websocket_client==1.9.2
