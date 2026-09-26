@@ -18,11 +18,11 @@ outputs.
 src/
   acquisition.py     WebSocket + REST capture, snapshot/diff reconciliation
   reconstruct.py     Numba-accelerated book reconstruction from raw events
-  measures/          kyle_lambda.py, vpin.py
+  measures/          kyle_lambda.py, vpin.py, predictive_regressions.py
   market_making/     backtest.py
-data/
-  raw/               snapshots.jsonl, depth_events.jsonl, trade_events.jsonl
-  clean/             book_summary.parquet, trade_summary.parquet
+  data/
+    raw/               snapshots.jsonl, depth_events.jsonl, trade_events.jsonl
+    clean/             book_summary.parquet, trade_summary.parquet
 output/              regression / backtest results, CSVs
 ```
 
